@@ -139,11 +139,11 @@ For these tutorials, however, we're going to use SystemJS and the individual UMD
 **SystemJS config.js**
 
 The `map` section of `config.js` tells the System loader where to look for things.
-Add an entry for `@uirouter/angular` nd `@uirouter/core` in the `map:` section.
+Add an entry for `@uirouter/angular` and `@uirouter/core` in the `map:` section.
 This entry must allow us to `import from '@uirouter/angular'` and get the `@uirouter/angular`
 library entry point (`main:` from `package.json`).
 
-Add a second second entry for `helloworld` which will get us the helloworld app entry point.
+Add a second entry for `helloworld` which will get us the helloworld app entry point.
 
 ```js
 ...
